@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Survey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .hero {
+            background: linear-gradient(to right, #007bff, #00c6ff);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+            animation: fadeInDown 1s ease-in-out;
+        }
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 20px;
+            animation: fadeInUp 1s ease-in-out;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 12px 25px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #ff7f50;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease-in-out;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        .cta-button:hover {
+            background-color: #ff5722;
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 50px 20px;
+        }
+        .feature-box {
+            background: white;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .feature-box:hover {
+            transform: translateY(-5px);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        </style>
+</head>
+<body>
+            <div class="hero">
+                <h1>Find the Right Scholarship for You</h1>
+                <p>Answer a few questions and discover scholarships tailored to your needs.</p>
+                <a href="Untitled-3.html" class="cta-button">Start Your Survey</a>
+            </div>
+            
+            <div class="features">
+                <div class="feature-box">
+                    <h3>Personalized Matches</h3>
+                    <p>Get scholarships that match your profile and background.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Easy to Apply</h3>
+                    <p>Streamline your application process with our guidance.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Trusted Resources</h3>
+                    <p>Access verified and up-to-date scholarship listings.</p>
+                </div>
+            </div>
+        <a href="about.html" class="cta-button">Know about us !! </a>
+    </div>
+</body>
+</html>
